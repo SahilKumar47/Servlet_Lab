@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>IpFilter</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>IpValidator</display-name>
+		<servlet-name>IpValidator</servlet-name>
+		<servlet-class>com.ipfilter.IpValidator</servlet-class>
+		<init-param>
+			<param-name>forbiddenIpAddress</param-name>
+			<param-value>192.168.0.1</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IpValidator</servlet-name>
+		<url-pattern>/IpValidator</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>validateIP.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
