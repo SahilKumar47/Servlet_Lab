@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>404</title>
+<title>Insert title here</title>
 </head>
 <body>
-Error Occurred page not found
+	<a href="flowers.jsp">Flower Page</a>
+	<br/>
+	<a href="cards.jsp">Card Page</a>
+	<br/>
+	<a href="bill.jsp">Bill Page</a>
 </body>
-</html> 
+</html>

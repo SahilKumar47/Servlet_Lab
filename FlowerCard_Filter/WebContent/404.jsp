@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>404</title>
+<title>Forbidden access</title>
 </head>
 <body>
-Error Occurred page not found
+This IP is not accessable
 </body>
-</html> 
+</html>
