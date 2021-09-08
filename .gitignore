@@ -50,6 +50,7 @@ out/
 .settings/
 bin/
 tmp/
+Servers/
 .metadata
 .classpath
 .project
